@@ -1,0 +1,593 @@
+/* Single and block line comment */
+/* css is like python, whatever you put first is what it will read first, so make sure you order them correctly */
+
+/* Table styling section */
+
+table {
+    width:60%;
+    border: 1px solid #3F2860;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding:5px;
+    border:1px solid #3F2860;
+}
+
+th {
+    padding:5px;
+    border:1px solid #3F2860;
+}
+
+caption {
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+/* alternating color scheme for table rows/cols */
+tr:nth-of-type(even){
+    background-color: #DBE8E9;
+}
+
+/* Full screen layout */
+
+@media(min-width:1024px){
+
+    body{
+        background-color: #3F2860;
+        color: #40407A;
+        font-family: Verdana,Arial,sans-serif;
+        
+    }
+
+    /* Header stuff */
+    header {
+        background-image: url("images/sunrise.jpg");
+        background-size: 120% 100%;
+        color: #FFFFFF;
+        font-size: 120%;
+        margin-top: 50px;
+        text-align: right;
+        min-height: 200px;
+    }
+
+    header a:link{
+        text-decoration: none;
+        display:block;
+        color:#FFF;
+    }
+
+    header a:visited{
+        text-decoration:none;
+        display: block;
+        color:#FFF;
+    }
+
+    header a:hover {
+        text-decoration: none;
+        display:block;
+        color: #EDF5F5;
+    }
+
+
+    /* Header texts types */
+    h1 {
+        line-height: 200%;
+        /* padding-top:50px; */
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    h2 {
+        font-size:200%;
+    }
+
+    /* Navigation stuff */
+    nav {
+        position:fixed;
+        top:0;
+        left:0;
+        text-align: right;
+        background-color: #FFF;
+        padding:0.5em;
+        padding-right: 0;
+        margin:0;
+        width:100%;
+        z-index:9999;
+    }
+
+    nav a {
+        display:block;
+        text-decoration: none;
+    }
+    nav a:link{color:#3F2860;}
+    nav a:visited{color:#497777;}
+    nav a:hover{color: #A26100;}
+
+    nav ul{
+        display: flex;              /*When screen moves, this flexs and moves*/
+        flex-wrap: nowrap;          /*does not wrap the text ontop of each other*/
+        justify-content: flex-end;  /*where the flex align goes to*/
+        margin: 0;                 
+        font-size: 1.2em;
+        list-style-type:none;
+    }
+
+    nav li{
+        width: 7em;
+        padding:0 1em 0 1em;
+        display:inline;
+    }
+
+
+    /* footer stuff */
+    footer {
+        background-color: #80CBC4;
+        font-size: 0.06em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        padding: 1em;
+    }
+
+    /* dif tags stuff */
+    img {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    /* italisizes the studio name */
+    .studio {
+        /* color: #40407A; */
+        font-style: italic;
+    }
+
+    /* adds stuff to whatever has the wrapper id */
+    #wrapper {
+        padding:2em;
+        margin: auto;
+        width:80%;
+        background-color: #f5f5f5;
+    }
+    .home {
+        height:50vh;
+        padding-left: 8em;
+        padding-top:5em;
+    }
+
+    .content {
+        height:30vh;
+        padding-left: 8em;
+        padding-top:5em;
+    }
+
+    #mathero{
+        background-image: url("images/yogamat.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 300px;
+        width: 90%;
+        padding-bottom:1em;
+    }
+
+    #loungehero{
+        background-image: url("images/yogalounge.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 300px;
+        width:90%;
+        padding-bottom:1em;
+    }
+
+    section{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #flow{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #mobile{
+        display: none;
+    }
+    #desktop {
+        display:inline
+    }
+
+    /*
+        /* main {
+            padding-top: 1em;
+            padding-left: 2em;
+            padding-right: 2em;
+            display:block;
+            margin-left:170px;
+            
+        } */
+        /*  to assist with splitting into columns */
+    /*
+        .floatleft {
+            float:left;
+            margin-right: 4em;
+            margin-bottom: 1em;
+        }
+
+        /* take up a half of the area */
+    /*
+        .onehalf {
+            float:left;
+            width: 50%;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+    */
+        /* takes up a third of the area */
+    /*
+        .onethird {
+            float:left;
+            width: 33%;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        #clear {
+            clear:both;
+        }
+    */
+}
+
+/* mobile screen layout */
+/* half screen or tablet could work with max-width 1024px . . . */
+@media(max-width:600px){
+
+    body{
+        background-color: #3F2860;
+        color: #40407A;
+        font-family: Verdana,Arial,sans-serif;
+    }
+
+    /* Header stuff */
+    header {
+        background-image: url("images/sunrise.jpg");
+        background-size: 100% 100%;
+        color: #FFFFFF;
+        font-size: 80%;
+        margin-top: 50px;
+        text-align: right;
+        min-height: 200px;
+    }
+
+    header a:link{
+        text-decoration: none;
+        display:block;
+        color:#FFF;
+    }
+    header a:visited{
+        text-decoration:none;
+        display: block;
+        color:#FFF;
+    }
+    header a:hover {
+        text-decoration: none;
+        display:block;
+        color: #EDF5F5;
+    }
+
+
+    /* Header texts types */
+    /* h1 {
+        line-height: 200%;
+        padding-top: 50px;
+        padding-left: 2em;
+        padding-right:2em;
+    } */
+
+    h2 {
+        font-size:200%;
+    }
+
+    /* Navigation stuff */
+    nav {
+        position:fixed;
+        top:0;
+        left:0;
+        text-align: right;
+        background-color: #FFF;
+        padding:0.5em;
+        padding-right: 0;
+        margin:0;
+        width:100%;
+        z-index:9999;
+    }
+
+    nav a {
+        display:block;
+        text-decoration: none;
+    }
+    nav a:link{color:#3F2860;}
+    nav a:visited{color:#497777;}
+    nav a:hover{color: #A26100;}
+
+    nav ul{
+        display: flex;              /*When screen moves, this flexs and moves*/
+        flex-wrap: wrap;          /*does not wrap the text ontop of each other*/
+        justify-content: row;  /*where the flex align goes to*/
+        margin: 0;                 
+        font-size: 1.2em;
+        list-style-type:none;
+    }
+
+    nav li{
+        width: 7em;
+        padding:0 1em 0 1em;
+        display:inline;
+    }
+
+
+    /* footer stuff */
+    footer {
+        font-size: 0.6em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    /* dif tags stuff */
+    /* img {
+        padding-left: 1em;
+        padding-right: 1em;
+    } */
+
+    /* italisizes the studio name */
+    .studio {
+        /* color: #40407A; */
+        font-style: italic;
+    }
+
+    /* adds stuff to whatever has the wrapper id */
+    #wrapper {
+        padding:2em;
+        background-color: #f5f5f5;
+    }
+
+    .home {
+        height:20vh;
+        padding-left: 5%;
+        padding-top:2em;
+    }
+
+    .content {
+        height:20vh;
+        padding-left: 10%;
+        padding-top:2em;
+    }
+
+    section{
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    #flow{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop {
+        display:none;
+    }
+}
+
+@media(min-width:600px){
+
+    body{
+        background-color: #3F2860;
+        color: #40407A;
+        font-family: Verdana,Arial,sans-serif;
+    }
+
+    /* Header stuff */
+    header {
+        background-image: url("images/sunrise.jpg");
+        background-size: 100% 100%;
+        color: #FFFFFF;
+        font-size: 90%;
+        margin-top: 50px;
+        text-align: right;
+        min-height: 200px;
+    }
+
+    header a:link{
+        text-decoration: none;
+        display:block;
+        color:#FFF;
+    }
+
+    header a:visited{
+        text-decoration:none;
+        display: block;
+        color:#FFF;
+    }
+
+    header a:hover {
+        text-decoration: none;
+        display:block;
+        color: #EDF5F5;
+    }
+
+
+    /* Header texts types */
+    /* h1 {
+        line-height: 200%;
+        padding-left: 2em;
+        padding-top:50px
+        padding-right: 2em;
+    } */
+
+    h2 {
+        font-size:200%;
+    }
+
+    /* Navigation stuff */
+    nav {
+        position:fixed;
+        top:0;
+        left:0;
+        text-align: right;
+        background-color: #FFF;
+        padding:0.5em;
+        padding-right: 0;
+        margin:0;
+        width:100%;
+        z-index:9999;
+    }
+
+    nav a {
+        display:block;
+        text-decoration: none;
+    }
+    nav a:link{color:#3F2860;}
+    nav a:visited{color:#497777;}
+    nav a:hover{color: #A26100;}
+    nav ul{
+        display: flex;              /*When screen moves, this flexs and moves*/
+        flex-wrap: nowrap;          /*does not wrap the text ontop of each other*/
+        justify-content: flex-end;  /*where the flex align goes to*/
+        margin: 0;                 
+        font-size: 1.2em;
+        list-style-type:none;
+    }
+    nav li{
+        width: 7em;
+        padding:0 1em 0 1em;
+    }
+
+
+    /* footer stuff */
+    footer {
+        font-size: 0.06em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    /* dif tags stuff */
+
+    /* italisizes the studio name */
+    .studio {
+        /* color: #40407A; */
+        font-style: italic;
+    }
+
+    /* adds stuff to whatever has the wrapper id */
+    #wrapper {
+        padding:2em;
+        background-color: #f5f5f5;
+    }
+
+    .home {
+        height:20vh;
+        padding-left: 10%;
+        padding-top:2em;
+    }
+
+    .content {
+        height:20vh;
+        padding-left: 10%;
+        padding-top:2em;
+    }
+
+    #mathero{
+        background-image: url("images/yogamat.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 300px;
+        width: 90%;
+        /* padding-bottom:1em; */
+    }
+
+    #loungehero{
+        background-image: url("images/yogalounge.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        height: 300px;
+        width:90%;
+        /* padding-bottom:1em; */
+    }
+
+    section{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #flow{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #mobile{
+        display: none;
+    }
+    #desktop {
+        display:inline;
+    }
+
+    /*
+        /* main {
+            padding-top: 1em;
+            padding-left: 2em;
+            padding-right: 2em;
+            display:block;
+            margin-left:170px;
+            
+        } */
+        /*  to assist with splitting into columns */
+    /*
+        .floatleft {
+            float:left;
+            margin-right: 4em;
+            margin-bottom: 1em;
+        }
+
+        /* take up a half of the area */
+    /*
+        .onehalf {
+            float:left;
+            width: 50%;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+    */
+        /* takes up a third of the area */
+    /*
+        .onethird {
+            float:left;
+            width: 33%;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        #clear {
+            clear:both;
+        }
+    */
+}
+
+
+/* according to banderlorian; the hw project's responsive layout is close to this, but you need to play with the media tags */
+
+
+
+/* global property (applies to any item we put into the file */
+*{box-sizing:border-box;}

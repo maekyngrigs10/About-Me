@@ -1,0 +1,9 @@
+nav bar on top of screen
+
+header picture is responsive based on size of window
+
+also header picture goes all the way to the edge of the window
+
+when the window screen isnt big screen the footer is not teal just white
+
+also when not big screen the background is just white not purple

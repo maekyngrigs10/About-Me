@@ -1,0 +1,51 @@
+/* Single and block line comment */
+
+body{
+    background-color: #f5f5f5;
+    color: #40407A;
+    font-family: Verdana,Arial,sans-serif;
+}
+
+header {
+    background-color: #80CBC4;
+    text-align: center;
+}
+
+h1 {
+    line-height: 200%;
+    text-align: center;
+}
+
+h2 {
+    font-size:200%;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #40407A;
+}
+
+
+footer {
+    background-color: #80CBC4;
+    font-size: 0.06em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.studio {
+    color: #40407A;
+    font-style: italic;
+}
+
+#wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}

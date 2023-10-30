@@ -1,0 +1,5 @@
+jo,300
+jose,100
+baba,25
+john,18
+meggy,15

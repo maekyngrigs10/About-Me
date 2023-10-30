@@ -1,0 +1,25 @@
+what needs to be done
+
+Incorporate a Countdown timer, that when it goes off, the
+game will stop and shows the top 5 scores
+
+Every time the turtle moves, change the Screen background
+to red and then back to white
+
+When you click the turtle, it will leave a red outline of
+where the turtle was
+
+Each time you click the turtle, shrink the turtle by 50% 
+until it is at a certain size then reset the size (at least
+3 shrinks before reset)
+
+Create a start game function that forces the user to press 
+start on the Turtle Screen which will trigger the countdown 
+and the ability to click on the turtle
+
+Keep track of the accuracy of clicking.  You can display the
+score and the accuracy right below the score.  Accuracy is 
+defined by the turtle clicks vs amount of clicks.
+
+Be sure that the turtle will NOT spawn under the scorekeeper
+and timekeeper because if so, they cannot be clicked.

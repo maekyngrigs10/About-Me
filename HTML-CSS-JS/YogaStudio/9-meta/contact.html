@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title> Contact Us </title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+            <div id="wrapper">
+                <header class="content">
+                    <h1><a href="index.html"> Path of Light Yoga Studio</a></h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="classes.html" >Classes</a></li>
+                        <li><a href="schedule.html" >Schedule</a></li>
+                        <li><a href="contact.html" >Contact</a></li>
+                        <li><a href="store.html"> Store </a></li>
+                    </ul>
+                </nav>
+                    <main>
+                        <h2>Contact Path of Light Yoga Studio</h2>
+                        <p>Fill out the form below to contact Path of Light Yoga Studio. All Information is required. </p>
+                        <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+                            <label for="myName">Name: </label>
+                            <input id="myName" type="text" placeholder="enter your name" required>
+                            <label for="myEmail">Email: </label>
+                            <input id="myEmail" type="email" placeholder="enter your email" required>
+                            <label for="myRefer">How did you hear about us? </label>
+                            <input id="myRefer" list="referral" required>
+                            <datalist id="referral">
+                                <option value="Google">
+                                <option value="Facebook">
+                                <option value="Clash of Clans">
+                                <option value="Snapchat">
+                            </datalist>
+                            <label>Comments</label>
+                            <textarea id="myComments" placeholder="comments" rows=2 cols=20 type="text" required></textarea>
+                            <button id="mySubmit" onclick="myFunction()">Send Now</button>
+                        </form>
+                    </main>
+
+                    <footer>
+                        Copyright © 2020 <i class="studio">Path of Light Yoga Studio</i><br>
+                            <a href="mailto:notme@gmail.com">
+                                Email Us
+                            </a>
+                    </footer>
+            </div>
+        </body>
+    </html>

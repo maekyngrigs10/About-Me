@@ -1,0 +1,6 @@
+Game loop
+
+- every time the timer updates (abt every 10ms)
+    1.) process input (key press, ui, movement, etc.)
+    2.) update game based on the input
+    3.) render game
