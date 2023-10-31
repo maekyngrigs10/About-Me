@@ -23,7 +23,7 @@
 
 ## Contact Me
 - [LinkedIn](https://www.linkedin.com/in/maekyn-g-509081243/)
-- [Portfolio](https://maekyngrigs10.github.io/PortfolioFinal/)
+- [Portfolio](https://maekyngrigs10.github.io/Portfolio/)
 
 ## My Projects
 - LunchBox : Website for SICTC's Culinary Restaurant
