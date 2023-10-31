@@ -22,6 +22,8 @@
 - IoT Web App
 
 ## Contact Me
+- [LinkedIn](https://www.linkedin.com/in/maekyn-g-509081243/)
+- [Portfolio](https://maekyngrigs10.github.io/PortfolioFinal/)
 
 ## My Projects
 - LunchBox : Website for SICTC's Culinary Restaurant
@@ -30,5 +32,7 @@
 - SICTC's College and Career Fair Website : Helps navigate and research companies and colleges present at the annual career fair
   - -[CCF Website](https://sictccs.github.io/CCF/)
   ![ccfSS](https://github.com/maekyngrigs10/About-Me/assets/107376573/aeadeacf-1707-4a37-98c3-9a8e765cd8af)
-  
+- SciFi Name Generator ANdroid Studio
+  ![scifi](https://github.com/maekyngrigs10/About-Me/assets/107376573/a2bf507c-9df2-44e8-9a5f-aaaa62f8191a)
+
 
